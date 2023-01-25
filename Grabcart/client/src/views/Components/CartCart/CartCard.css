@@ -1,0 +1,65 @@
+.cover{
+    position: relative;
+    width: 350px;
+    height: 320px;
+    background: rgba(151, 93, 206, 0.448);
+
+}
+.pname{
+    position: absolute;
+    width: 130px;
+    height: max-content;
+    padding: 2%;
+    left: 5%;
+    top: 10%;
+}
+.pimg{
+    position: absolute;
+    height: 170px;
+    width: 150px;
+    right: 5%;
+    top: 5%;
+}
+.sbox{
+    position: absolute;
+    width: 160px;
+    height:45px ;
+    display: flex;
+    top: 50%;
+    left: 2%;
+}
+.b{
+    margin: 2px;
+    width: 140px;
+    font-size:medium;
+}
+.pcost{
+    position: absolute;
+    left: 60%;
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    top: 60%;
+}
+
+.ptext{
+    position: absolute;
+    width: max-content;
+    height:max-content ;
+    left: 3%;
+    top: 65%;
+    padding: 2px;
+}
+.p{
+    margin: 0;
+    font-style: italic;
+}
+
+.porder{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    bottom: 5%;
+    left: 13%;
+    font-size: medium;
+}

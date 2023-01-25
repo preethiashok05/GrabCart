@@ -1,0 +1,26 @@
+
+.nav{
+    background: rgba(142, 202, 200, 0.774);
+}
+
+
+.cartitems{
+    position: absolute;
+    top:140px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start;
+    justify-content: center;
+    background: #cdc9c9;
+}
+.total{
+    margin: 2px;
+    top: 100px;
+    height: 30px;
+    font-size: medium;
+    position: absolute;
+}
+

@@ -1,0 +1,36 @@
+.car{
+position: relative;
+width: 250px;
+height: 285px;
+color: rgba(39, 31, 31, 0.835);
+background: rgba(117, 117, 212, 0.328);
+outline: none;
+margin: 0;
+}
+.imgg{
+    
+    height: 285px;
+    width: 250px;
+}
+.price{
+position: absolute;
+height:48px;
+font-weight: bold;
+width: 100px;
+bottom: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+right: 0;
+background: #f2dfdfbf;
+}
+
+.itemname{
+position: absolute;
+bottom: 0;
+width: 250px;
+height: 60px;
+padding: 2px;
+overflow: scroll;
+background: hsla(313, 60%, 97%, 0.714);
+}

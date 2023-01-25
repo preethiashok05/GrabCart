@@ -1,0 +1,41 @@
+.nav{
+    position: absolute;
+    top: 0%;
+    height: 98px;
+    left: 0%;
+    right: 0%;
+    background: #D9D9D9;
+    }
+.gender{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    height: 30px;
+    top:100px;
+    background: hsl(0, 43%, 99%);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.g{
+    font-size: large;
+}
+.back{
+    color: rgb(12, 12, 179);
+    padding: 5px;
+    font-size: larger;
+    font-weight:bold;
+    margin: 5px;
+}
+.items{
+        position: absolute;
+        top:130px;
+        left: 0%;
+        right: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        align-content: flex-start;
+        justify-content: center;
+        background: #cdc9c9;
+}
+

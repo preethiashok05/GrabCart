@@ -1,0 +1,56 @@
+body{
+    background: #D9D9D9;
+}
+
+.nav{
+position: absolute;
+height: 98px;
+left: 0%;
+right: 0%;
+top: calc(50% - 98px/2 - 351px);
+background: hsl(0, 0%, 85%);
+}
+.banner{
+position: absolute;
+height: calc(50% - 166px );
+left: 0%;
+right: 0%;
+top: 100px;
+}
+.title{
+position: absolute;
+height: 29px;
+left: calc(50% - 130px/2);
+top: 33px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.user{
+position: absolute;
+width: 90px;
+right: 11px;
+top: 55px;
+padding: .25rem;
+background: #ECE4E4;
+}
+
+.categories{
+position: absolute;
+display: flex;
+gap: 5px;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: center;
+left: 0%;
+right: 0%;
+bottom: 0%;
+padding: 5%;
+top: 380px;
+height: max-content;
+background: #D9D9D9;
+}

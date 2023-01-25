@@ -1,0 +1,45 @@
+.input {
+border: none;
+position: relative;
+width: 241px;
+left: calc(50% - 241px/2 - 3px);
+top: calc(50% - 48px/2 - 73px);
+left:2.5rem;
+margin-top:2rem;
+height: 48px;
+background: #D9D9D9;
+}
+#submit{
+    background: #2783c57c;
+    cursor: pointer;
+}
+
+.login{
+position: absolute;
+width: 162px;
+height: 53px;
+left: 26px;
+left: calc(50% - 162px/2 - 79.5px);
+top: calc(50% - 53px/2 - 192.5px);
+top: 199px;
+border: none;
+background: #5756bdbf;
+border-radius: 20px 0px 0px 20px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.register{
+
+    position: absolute;
+width: 160px;
+height: 53px;
+left: 185px;
+left: calc(50% - 162px/2 + 79.5px);
+top: calc(50% - 53px/2 - 192.5px);
+top: 199px;
+border:none;
+background: #D9D9D9;
+border-radius: 0px 20px 20px 0px;
+}
